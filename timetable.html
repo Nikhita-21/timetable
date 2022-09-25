@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMETABLE</title>
+    <link rel="stylesheet" href="timetable.css">
+</head>
+<body>
+  
+    <table  width="80%">
+        <tr>
+            <td>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOIAAADfCAMAAADcKv+WAAABBVBMVEX///+kI4+nzjn1giEjHyAAAAAgHB2kzTH8/fmeAIe31mn0egv4r3rfvdgbFhejzCz29vbBwcH1fhTKysq92XVZV1h/fX36xacJAADCf7URCgz3omXr6+vr0eeYl5dJR0dqaWmrqqqSkZHn5ubV1dWioaH3+/FhX18XEhOEg4MwLC379/pEQELf3t64t7e0XKPe7L+t0Us2MzSoNJTI34/v9uHV56xRT1BnZWV0c3P718P959z+8+75v5v1hCn839D2k0yx01nq89bO457ZsNG/dbHw4u3PnMSuR5zs2uj5t432jT73nmL5roH7zrb5upS0WaPh7cXB3ILLk8DSpcm7a6zY6bMy31OAAAAQMUlEQVR4nO2ce5+TOBfHqUMyU6sMlG3FiL3RWsqUulZ9OlXXy67X1XV3vez7fylPbtwvBToUOh/OHzoDIcmX5JecnIQRhMYaa6yxxhprrLHS7NmtZ1VXoVx7fqvb6d57XnU1yrMXv73snJycdF7++aLqqpRkXz8TQGKdz3fOqq5NCfbqS6d74li38/raSfL5X93Oid+63Xuvqq7UVRoXYdC6J9dIks9e+/qozzovf7sekM/vxQNSyNdfq67e/vbiz5NoH/X11s6XI5fk2Z3PaYBMkreO2RV49bqb2EevhSSxt5YBkEJ+PkpJvvg7VYSh3nqErsDZ150iDEF2j0ySAW8tox2Zd/4lXxO6kEfknd/L3YbUjkmSBREJ5LF454URybjz51GMO3sg0gXzEYw79woNNx7kEXjne7XiyVF45/siEu/8r3pLcn9E3FtPau2d76lFB7LO3vlVtOJJvV2BK0IkkHX1zq8Msb7e+RUiUlegap4Yu5rhxrFaSvJKW5FC1m47Kw3xc9aIThCybt55GuKzvDEPbp3PtXIF0hBf7QofJxl2XGsUFEhB7JLhkewW5yXs1Mtr3YUoCM9yBrBqFw7YjZgzDFk/dzUDItl1zNpbO92/Dz7SvH2bfn8H4oM3v9NkLzJJspoo8of2z/tp928l15winp5/e0oTvkrZfOTpO18qcW0+tNutu++T7+9CvHHj/MYfD2jSr69TG7Kywx0/2q1W+/GHi6T7uxEx5Jv/aNrYgwAOYLeyZcZtjIghP95OuJ8F8cbp+U0uyfBxDidplZ4pQ8SQD+MlmQkRN+RpiiQrXl84iK0ESWZExJCP/sckGTnVUfUJKxcxQZKZEXFvffMrRXlxxy/JTuWHcnyIsZLMjhgryTpEigOIGPKfkCTzIOLe6sySz++RtWS3FvH+EGKr3b77yX8/HyKZJR1JfunU5ABHGJFI8rtPknkRqSTpky/u1GTJFEUkkJ7jugPx7OZpDOQvv1dIFLE4RL8kCyDSWfJBpVQBi0fEkHyWLIRIZ8nahC6SELErQGfJgohEkv9WzcYtEZE0pFAcEUOe1kSS5SESST6pgyTLRKyJJMtFrIUkS0YkkN8qlmTpiMSnq1aSB0CsWpIHQSTLrOokuQ/ib5kR6Sz59PgQO7dyIPqCkdcXsTJJHhKxIkkeFJFI8tvBJbkP4r38iFVIsjAiC3DnRySS/O+gkiyKyAPcZzfPcyMeWpLFEL0T0f97VIDR2x+oK2K364utPX1ynr+vHlSS+RG7ndcswP3pO4u4/n6zCOTp+aMD9dbciE6A++J7u93iEddf3xSBPL95mFEnJ2LnJTuOcPH2MXmw/fgthTz7o4Akz3+pIaIrwtsP3T07HnF9+uRGXsgaIrrHEd6/a/m27NrvCkqyfojOmaCL763gM+3W3UKSrBuic+qZizCUkkvyQa5Zsl6I7pmg+w/j07f/YZuveSRZK0TnOML7u63k5I4kf8naW2uA2Hp4QRE7J8xbu/gQ00d9b8SdJR9lg6wR4l/MHb39MQ2QQjqzZDZJ1gaRH0e4/3MXIIX8mEOSdUF8LpNU78MTRTJkdkkeCvH+DkRiFz9SRRhi5JI82zlL1ghxtwhDkK4k03trbRA//WznI2zRWZK5Ak8e1R8x4q1lZGzx4xBP0nZYa4D48yJvH+WA7Z/OmFP3jvr4nyKA7vrqwbfT2muxkLUf/+Au+a6p8UgR8ZTBzuvgKSMd8FgRPRFmcFOPEdFx3x5kW1EdHyIWIc1x14x/tIju0fJfM28BHBmi532fZt82PibEnCI8PkRnJsy4Ej4+RFeE/+aN+h8LovPhXPao1JEhYhHyVVPucP9xIPKDx7lF6CAeaGeqOGJxEVI7Pb15oI3iwoiOCJ9+K7aByj+wqi+i+3VVVm8taOePDngy5X2RwEW79YMH5wqe2Djs+aL80Rn/l44Fzt2438cd0D69yxVjC3xCXuD01IEPFnG7nz1I48yEBRErO7EZvzEa20dDH6rmPcl4+EN+nmWRZLv1Lvy5cR7E6j9o+PRuB2TcR+N5ThVXI8KgJe1ycxG+jfn7BpkRq/6SwbFkSWIRxv6Viqwn/OvyiZiQJMl2OyJCbhm/06hahEF7H5Vk0l9uEDJ+bVOHb8OCFpJkvAi57UbEIqxwokiyi7fehpR7DiPedn/5Vh8RBs2VZKIIuaUjuh/A19KoJCN/qyFi6V+h1k+EQbv/8OOOv0slpCLWU4RBu0gTIbeUL8IPv2QqxxIQT88fHSxuUbYl/HWGQ8YtyrbYv7FRwXdRJVoU8fqIkFsEsRZLpiu1EOL56TUSIbcA4jUTITcfYqVffZdoHuL1EyE3B7EucYsSjCFW+NF++UYQr6sIuWHE2i+Z9rSzm+fXVoTczp5cL2+tscYaa6yxxhprrLHGGmussYymq7PFYjFWDDnvk9NZGfVJMn0yIDZRgnWgVydj9ps8YGlsfxJjsYZI0zQTisOB6rvOMhxEc/OKWAH/bX5tQkt0Xpc8i5TJqjFRI4/uMHkIcD01sAw0xZxcBIAj6oCl8b+GsQggFIlBKAEwdW+oLC3w5Tejz4Ote0ExwSRcEVbkxnlMX7Mq+Mo0WDbRt7PLVohWNFB/FZBL0pCXJzMYf5IxkkSfBRAZt+xPTC5pfR8iBNtQ9x6RRGbPRRzSAjQ/okSqUQBRZnmhue/altYJOIqJIqoIiumIUjoi/jXEWCKiMGZ1Mr1a2hbJS1obiYhz1vQmwEYKLoCIX6p+KERjyZrRq8FAo7m7cokgGiZkLa+o6mxoIlgEUdQ2fsYyEYUJrQG0nMFLp8wQOo0YRWT6NUesPtNtoVbEr2jjGy9LRTRovxQ1R3pjLVSjJER3dpv2CiGKaO09VyqisKBMkjNvbEgFoOiVnoCILr0UXmZ5EEXTYywX0WbjI1qx8ulvplf/KKJKtQjFcUxmuRBFEzozebmILHsRsfzZL5rPiYggyrQwEYLRNJKXMy/6LqUgihJSDoLIpjmICJatscHS1wrRSYN1bZxM7NvhvDji2LOtlIwoSnB1CEShR8tExMVaIF+nTUI01rySEFmDwPTGEXEOnjFHKAFRlNiwVTaiwgVk48rTaX/odz1iHDhFdGoJtXXAhXcQIxYzaXAnF80OgChv2GQ8EWa0C4LAQBKDKKgWcptBW0RG1EyIW4u1LwSL8hH5iCAtbdplpXWg88UhCvYcuQ0Jel76zIhQUlVo8p6wYH5xmYjMo8FFMC8gmE0sIp4dh5qz3NC80clBlDyD8YimIihc09Dc9qSSEfGajlWMFigagXsJiII+sPjI6iuYI8Lh0rHhGsa3Is5v6oxb7L9SEY21twD0eeSpiPipvsaaSFo6XdWZNHTX5FnsvEgR8arG1XTZiELfLQrC0FyXjEhW/7wbOjezLYldRMHooThE+ZLNY74oj70vom06q9xwI6YiCgqTGnLG4MwOHEcU9LkWg+h4XCMh+FRwxs5pW81pxHAAKOrA+e8yT6c4oqBvtRhEZ23gjdV9M7Z2OUzlI585D9+JINojX1dmA9UeiPjtAhhBZA+JyO2XU7rmg1bukKbPRmxUA5HXFEHUTW3hLqA30t6IuMlgGJFFV3Cr8Y5pL834BshjClWjr5RERBl7NOLlyjZkY7VhMQPkrDkKIQoDxugv/JI1I5RGytRWB1ZSA+QxmXo2WnQRGB1u8BuGJjKlocRdHNMNgBZDFAaR9+tE+UhBpuPLo80+/ZTF4qSYvh6LSDuR5IzCnlNbEFFYkXYMdKGt6wpCpxho7tWIJKRqesHTVMRL/2qI3PJiBEURhZUpBRH1IQqWgn3Z4pMitxmQlkb0Ml/k+xC3gcIhmIfd8F2IkPmoAcMOa3AgsDdaICItob0JBd2K7jWQyxpd2foQJ8A0nS0NCcGFb2GiAppYC+xp0Mc9xBUI5ccfXYPgWKcvJORoAZraeo9Z36u6Fo5TEJMnzLx7+mo7XNNYOG73bSCAY/DE/qqzK14Fp+H8nOvrYWgkmPaXIi0GWJuZHk5fxOwcG3+GOp5NBmN1vyEuVP4kOmNNV6SYVYyAGmusscYaa6yxxq7c5Kv0bUoqzR4MiItpzGYy/pllNB6QIO5spvObgjqY6dPBjJgh6OSHFfUX9cnlfMsPPBl8xYjvBUvQB/xwlcJyYB7tiv1nkCtjkpk80Xkq/LxBC+ZJp6Ru5M7ict4f56dcsTNSKgCGMEV9koG+JIuCGdDUKaKuv7wEQ2HAvGFVmJL/qNcvz6kfzqo2gOx/CacNvkRAdmWw9VkO1A2WLXaWSqGXlviVymu2ItuSE1S4Ovh1j9g2+QyY+I7cRzRtLzeiwhGhhBEtQA5h6BtSp5kmqkJfI8dxFA2tMCJcDoe40Ckw5xMLiQZZE21nfYs6yPqax3AtFKqEDTSGuNBEnMNyxd4sO0ugaOZ8YWk4D3kINgZ9EXOKOCO0Fmn/MbJ08gsS+4seyB+eCiJCcKn7EacS2VbtaXiNg1txKhMx4FZcCQrEj63oETV2kHECJEvfgQggy4HGF9hFRSP5mEghp7jQ0g4imiYpgCKqwFySlzKOW9DmQoTaRpc9ROFSs2zcXXESjLiypzZFHAsqidbYa2RxBRmWKbFmTGtFyHIgRz5MiZ7zoYgKR4RoqQYQkShJK4Io4/fDgwT5tRhElNaStrF7HqKqaYMFICHpARAtS8IdeQpQf7UBok7er8aX4hMwZ8nSO6powRGp5gZM6HskGuiPl+RJ3LCWhNbqwo9oQdMcE0R5ri1xBfGANcgdoAoiauMFQMu1hyj00FpEpHNgRA2Q4qfkB3NIW0MdAhN3WxIRUQwWhktFZDmQaJs80MgWn6KJSDN7Nj01OpkhtF4inxZ7K4jEIcSIWCy6MAYA5d+2mbIhbmWadLhZ4YqYZNPWQVwhyLYbcUdVDFsnT6Dt2olnyjPRXMq4EZe2fIlIM6Z2VJYDplkIU0jGbTzcjNb0FCVBFGbIhKYPcUM23CVIO6qmCOp8A/Mj2pAet9kiPOZTRGGA/IjyUmJj/sA5V0uGmzGtts2a2ZINS7I2m7VEtspShxsWrRlr0nozFCU8jhItzjRyopAiCmNLCiIK6tqEeLhZAZMMuFOzwObbJe4ns5FJOBgifpW+joo7h2kzRGk+Gl0qwpSMECOEk67ACM8ZGGmiweFwuLFM3IyYFifbeqEWG882+MqCtCLLYYisDU5P9tvpcNNDpsoRBcUCQUQSaiRj9VxD68lsVKAVhalIzifToWIqUUT8lunUT08aCcZ6RNNNAGITNx1RbRGINk5PxKFiFV7Kui4PyB0ISHamF12z2YNLPFbSH8bE28DJ8dxkGQrNEZF+vmYBThX2nKl/y7wIe0i8C71HM0ZxsexdZm+Hmw2NhBr9ERuuyOSjbPnBKD6ErbbUVMHYklTKdrSSF73NcK4K6pYdFJP724XQp8l8kVWdPTgRxjyHwZYdYlHxz/Z2pJC88b+LEfP8plvsSo7I5fGITYL6JfXwZvPNptcvFvGXI+6tnPBzzKOFSkyvTuKVwzr9jTV29fZ/we9cbUcgwUIAAAAASUVORK5CYII=" alt="logo" width="200" height="100" align="center">
+            </td>
+            <td align="left">
+                <h2 align="center">Shri Vishnu Engineering College For Women :: Bhimavaram</h2>
+
+                <h3 align="center">(Autonomous)</h3>
+                <h2 align="center">Department of Information Technology</h2>
+                <H2 ALIGN="center"><u>TIMETABLE : 2022-23</u></H2>
+                <h3 align="center">Class Incharge  : Mrs.K.Spandana</h3>
+            </td>
+        </tr>
+               
+            
+ 
+    </table>
+          
+     <table width="100%">
+        <tr>
+            <td>
+                <h3 align="left">YEAR : II B Tech I Sem  <br> Class : IT-A</h3>
+            </td>
+            <td>
+                <h3 align="right"> Wef : 22/08/2022 <br>
+                    Room No : D - 203</h3>
+            </td>
+        </tr>
+     </table>
+              
+        
+           
+                
+     
+    <table border="6" align="CENTER" width="60%" length="100%">
+      
+        <tr>
+            <th>
+                Period
+            </th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th rowspan="2">11:40 am <br>- <br> 1:00 pm</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+        <tr>
+            <th>DAY</th>
+            <th>8:00 -<br>
+            8:50 am</th>
+            <th> 8:50 - <br> 9:40 am</th>
+            <th>10:00 - <br> 10:50 am</th>
+            <th>10:50 - <br>11:40 am</th>
+            <th>1:00 - <br> 1:50 pm</th>
+            <th>1:50 - <br> 2:40 pm</th>
+            <th>2:50 - <br>3:40 pm</th>
+            <th>3:40 - <br> 4:30 pm</th>
+        </tr>
+       
+        <tr>
+            <th>MON</th>
+            <td align="center" >P&S</td>
+            <td align="center">PYTHON</td>
+            <td align="center">CO</td>
+            <td align="center">SE</td>
+            <td rowspan="6" align="center">L <BR>U<BR>N <BR> C <BR> H <BR>B <br> R <br> E <br> A <br> K </td>
+            <td align="center">DBMS</td>
+            <td align="center" colspan="3">PYHON LAB/FWD LAB</td>
+        </tr>
+        <tr>
+            <th>TUE</th>
+            <td align="center">DBMS</td>
+            <td align="center" colspan="2">CODING</td>
+            <td align="center">CO</td>
+            <td align="center">P&S</td>
+            <td align="center" colspan="3">FWD LAB/DBMS LAB</td>
+        </tr>
+        <tr>
+            <TH>WED</TH>
+            <td align="center">PYTHON</td>
+            <td align="center" colspan="2">FWD LAB</td>
+            <td align="center">CO</td>
+            <td align="center">SE</td>
+            <td align="center" colspan="3">ARTS</td>
+            
+        </tr>
+        <tr>
+            <TH>THU</TH>
+            <td align="center">CO</td>
+            <td align="center">LIB</td>
+            <td align="center">SE</td>
+            <td align="center">PYTHON</td>
+            <td align="center">ES</td>
+            <td align="center">P&S</td>
+            <td align="center">FWD LAB</td>
+            <td align="center">DBMS</td>
+        </tr>
+        <tr>
+            <TH>FRI</TH>
+            <td align="center">SE</td>
+            <td align="center">P&S</td>
+            <td align="center">PYTHON</td>
+            <td align="center">DBMS</td>
+            <td align="center">FWD LAB</td>
+            <td align="center" colspan="3">DBMS LAB/PYTHON LAB</td>
+        </tr>
+        <tr>
+            <TH>SAT</TH>
+            <td align="center">FWD LAB</td>
+            <td align="center">ES</td>
+            <td align="center">CO</td>
+            <td align="center">COUN</td>
+            <td align="center">DBMS</td>
+            <td align="center">SE</td>
+            <td align="center">PYTHON</td>
+            <td align="center">P&S</td>
+        </tr>  
+    </table>
+    <TABLE align="CENTER"    width="60%">
+            <td align="center"><u>Subject</u></td>
+             
+            <td align="center"><u>Faculty</u></td>
+        </TR>
+    </TABLE>
+    <TABLE
+    border="6" align="center" width="60%">
+        <tr>
+       <td><b>P&S</b></td>
+        <td>Probability & Statistics</td>
+        <td>Mrs.GangaBhavani</td>
+        </tr>
+        <tr>
+            <td><b>CO</b></td>
+            <TD>Computer Organisation</TD>
+            <TD>Mr.K.P.Swaroop</TD>
+        </tr>
+        <tr>
+           <td><b>SE</b></td>
+           <td>Software Engineering</td>
+           <td>K.Sreenivasu</td>
+        </tr>
+        <tr>
+           <td><b> ES</b></td>
+            <td>Environmental Science</td>
+            <td>DBNS Varma</td>
+        </tr>
+        <tr>
+           <td><b> DBMS</b></td>
+        <td> Data Base Management System</td>
+        <td>Mrs.k.Spandana</td>
+    
+    </tr>
+
+        
+    
+        <tr>
+            <td><b>PYTHON</b></td>
+            <td>python</td>
+            <td>Prof.P.Venkata Rama Raju</td>
+        </tr>
+        <tr>
+           <td><b>FWD LAB</b></td>
+            <td>Front-end Web Development Lab</td>
+            <td>Dr.D.V.Nagaraju</td>
+        </tr>
+        <tr>
+           <td><b>PYTHON <br> LAB</b></td>
+        <td>Python Programming lab</td>
+        <td>Prof.P.Venkata Rama Raju</td>
+    </tr>
+        <tr>
+           <th>DBMS LAB</th>
+            <td> Data Base Management System Lab</td>
+            <td>Mrs.K.Spandana</td>
+        </tr>
+    
+    </TABLE>
+    <br>  <h3 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Non-Acedamic</u></h3>
+        <table  width="40%">
+        <tr align="left">
+            <TH >
+                &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIB
+            </TH>
+            <TD > library</TD>
+        </tr>
+        <tr align="left">  
+            <th> &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coun</th>
+            <td >Counselling</td>
+
+        </tr>
+        <tr align="left">
+            <th> &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coding</th>
+            <td >Coding Practice</td>
+        </tr>
+    </table>
+   <P>\</P><P></P><P></P>
+    <table align="center"  width="60%">
+        <TR>
+            <td>
+                <b>HOD-IT</b>
+            </td>
+            <td align="center">
+                <B>DEAN-ACEDAMICS</B>
+            </td>
+            <td>
+              <B>PRINCIPAL</B>
+            </td>
+      </TR>
+     </table>
+    
+
+</body>
+</html>
